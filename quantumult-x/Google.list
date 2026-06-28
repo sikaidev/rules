@@ -1,0 +1,45 @@
+﻿# NAME: Google
+# FORMAT: Quantumult X filter/rule-set
+# RULES: 19
+# SOURCE: C:\Users\admin\Downloads\anywhere-app-rules (1).zip
+# GENERATED-AT: 2026-06-28T17:32:55
+#
+
+# > com.google.calendar
+# BUNDLE-ID: com.google.calendar
+# RULES: 1
+HOST,tasks-pa.googleapis.com
+
+# > com.google.Gmail
+# BUNDLE-ID: com.google.Gmail
+# RULES: 14
+HOST,accounts.google.com
+HOST,accounts.youtube.com
+HOST,apis.google.com
+HOST,ci3.googleusercontent.com
+HOST,feedback-pa.clients6.google.com
+HOST,imap-mail.outlook.com
+HOST,lh3.googleusercontent.com
+HOST,mail-attachment.googleusercontent.com
+HOST,meetings.googleapis.com
+HOST,play.google.com
+HOST,signaler-pa.googleapis.com
+HOST,tasks-pa.googleapis.com
+HOST,www.google.com
+HOST,www.gstatic.com
+
+# > com.google.Keep
+# BUNDLE-ID: com.google.Keep
+# RULES: 1
+HOST,tasks-pa.googleapis.com
+
+# > com.google.tasks
+# BUNDLE-ID: com.google.tasks
+# RULES: 1
+HOST,tasks-pa.googleapis.com
+
+# > com.google.Translate
+# BUNDLE-ID: com.google.Translate
+# RULES: 2
+HOST,dl.google.com
+HOST,lens-pa.googleapis.com

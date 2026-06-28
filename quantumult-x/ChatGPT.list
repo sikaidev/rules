@@ -1,0 +1,23 @@
+﻿# NAME: ChatGPT
+# FORMAT: Quantumult X filter/rule-set
+# RULES: 13
+# SOURCE: C:\Users\admin\Downloads\anywhere-app-rules (1).zip
+# GENERATED-AT: 2026-06-28T17:32:55
+#
+
+# > ChatGPT
+# BUNDLE-ID: com.openai.chat
+# RULES: 13
+HOST,ab.chatgpt.com
+HOST,amp-api-edge.apps.apple.com
+HOST,api.revenuecat.com
+HOST,auth.openai.com
+HOST,chatgpt.com
+HOST,ios.chat.openai.com
+HOST,o33249.ingest.us.sentry.io
+HOST,sdmntprnznorth.oaiusercontent.com
+HOST,t0.gstatic.com
+HOST,t1.gstatic.com
+HOST,t2.gstatic.com
+HOST,t3.gstatic.com
+HOST,www.google.com

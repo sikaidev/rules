@@ -1,0 +1,129 @@
+﻿# NAME: Apple
+# FORMAT: Quantumult X filter/rule-set
+# RULES: 75
+# SOURCE: C:\Users\admin\Downloads\anywhere-app-rules (1).zip
+# GENERATED-AT: 2026-06-28T17:32:55
+#
+
+# > App Store
+# BUNDLE-ID: com.apple.AppStore
+# RULES: 21
+HOST,afs.ampaeservices.com
+HOST,amd-infra.itunes.apple.com
+HOST,amp-api.apps.apple.com
+HOST,amp-api-edge.apps.apple.com
+HOST,amp-api-search-edge.apps.apple.com
+HOST,apps.mzstatic.com
+HOST,apptrailers.itunes.apple.com
+HOST,bag.itunes.apple.com
+HOST,dispatcher.is.autonavi.com
+HOST,entitlements.itunes.apple.com
+HOST,fpinit.itunes.apple.com
+HOST,friend.gc.apple.com
+HOST,iosapps.itunes.apple.com
+HOST,is1-ssl.mzstatic.com
+HOST,ocsp2.apple.com
+HOST,p22-buy.itunes.apple.com
+HOST,pd.itunes.apple.com
+HOST,se-edge.itunes.apple.com
+HOST,setup.icloud.com
+HOST,sf-api-token-service.itunes.apple.com
+HOST,xp.apple.com
+
+# > com.apple.Fitness
+# BUNDLE-ID: com.apple.Fitness
+# RULES: 1
+HOST,bag.itunes.apple.com
+
+# > com.apple.Health
+# BUNDLE-ID: com.apple.Health
+# RULES: 1
+HOST,setup.icloud.com
+
+# > com.apple.MobileAddressBook
+# BUNDLE-ID: com.apple.MobileAddressBook
+# RULES: 2
+HOST,p192-contacts.icloud.com
+HOST,vcards.metowolf.com
+
+# > com.apple.mobilemail
+# BUNDLE-ID: com.apple.mobilemail
+# RULES: 7
+HOST,bag.itunes.apple.com
+HOST,cdn-mailguru.readdle.com
+HOST,imap.gmail.com
+HOST,imap.qq.com
+HOST,init.itunes.apple.com
+HOST,m.hotmail.com
+HOST,u46527442.ct.sendgrid.net
+
+# > com.apple.mobilephone
+# BUNDLE-ID: com.apple.mobilephone
+# RULES: 1
+HOST,gateway.icloud.com
+
+# > com.apple.mobileslideshow
+# BUNDLE-ID: com.apple.mobileslideshow
+# RULES: 1
+HOST,gateway.icloud.com
+
+# > com.apple.Passbook
+# BUNDLE-ID: com.apple.Passbook
+# RULES: 1
+HOST,bag.itunes.apple.com
+
+# > com.apple.Passwords
+# BUNDLE-ID: com.apple.Passwords
+# RULES: 27
+HOST,aliyun.com
+HOST,bag.itunes.apple.com
+HOST,cloudflare.com
+HOST,douban.com
+HOST,evoxt.com
+HOST,greeks.live
+HOST,lbkrs.com
+HOST,mail.qq.com
+HOST,meslcloud.com
+HOST,nube.sh
+HOST,res.wx.qq.com
+HOST,weibointl.api.weibo.cn
+HOST,www.aliyun.com
+HOST,www.cloudflare.com
+HOST,www.douban.com
+HOST,www.greeks.live
+IP-CIDR,120.232.170.196/32,no-resolve
+IP-CIDR,154.17.18.199/32,no-resolve
+IP-CIDR,156.251.180.39/32,no-resolve
+IP-CIDR,163.53.18.231/32,no-resolve
+IP-CIDR,188.253.6.222/32,no-resolve
+IP-CIDR,199.180.119.207/32,no-resolve
+IP-CIDR,47.242.230.156/32,no-resolve
+IP-CIDR,52.221.181.132/32,no-resolve
+IP-CIDR,54.178.208.186/32,no-resolve
+IP-CIDR,8.218.108.225/32,no-resolve
+IP-CIDR,85.237.207.27/32,no-resolve
+
+# > com.apple.shortcuts
+# BUNDLE-ID: com.apple.shortcuts
+# RULES: 2
+HOST,bag.itunes.apple.com
+HOST,gateway.icloud.com
+
+# > com.apple.weather
+# BUNDLE-ID: com.apple.weather
+# RULES: 5
+HOST,bag.itunes.apple.com
+HOST,fpinit.itunes.apple.com
+HOST,gateway.icloud.com
+HOST,weather-edge.apple.com
+HOST,weatherkit.apple.com
+
+# > TestFlight
+# BUNDLE-ID: com.apple.TestFlight
+# RULES: 6
+HOST,bag.itunes.apple.com
+HOST,fpinit.itunes.apple.com
+HOST,is1-ssl.mzstatic.com
+HOST,setup.icloud.com
+HOST,testflight.apple.com
+HOST,xp.apple.com

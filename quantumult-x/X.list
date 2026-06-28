@@ -1,0 +1,22 @@
+﻿# NAME: X
+# FORMAT: Quantumult X filter/rule-set
+# RULES: 12
+# SOURCE: C:\Users\admin\Downloads\anywhere-app-rules (1).zip
+# GENERATED-AT: 2026-06-28T17:32:55
+#
+
+# > X
+# BUNDLE-ID: com.atebits.Tweetie2
+# RULES: 12
+HOST,amp-api-edge.apps.apple.com
+HOST,api-stream.twitter.com
+HOST,app-analytics-services.com
+HOST,cm.g.doubleclick.net
+HOST,connectivitycheck.gstatic.com
+HOST,crashlyticsreports-pa.googleapis.com
+HOST,firebaselogging-pa.googleapis.com
+HOST,firebase-settings.crashlytics.com
+HOST,googleads.g.doubleclick.net
+HOST,openai.com
+HOST,pbs.twimg.com
+HOST,video-s.twimg.com
